@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Codificação de caracteres -->
+  <meta charset="UTF-8">
+  
+  <!-- Título da página (essencial para SEO) -->
+  <title>Reclamações sobre Alimentação em Vitória (ES) | Reclame Aqui</title>
+  
+  <!-- Meta descrição para buscadores -->
+  <meta name="description" content="Confira as reclamações recentes do setor de alimentação em Vitória no Reclame Aqui. Veja empresas com mais queixas e como elas respondem.">
+  
+  <!-- Palavras-chave (menos usadas hoje, mas ainda ajudam em SEO semântico) -->
+  <meta name="keywords" content="reclamações, alimentação, Vitória, Espírito Santo, restaurantes, delivery, Reclame Aqui">
+  
+  <!-- Autor da página -->
+  <meta name="author" content="Equipe Vitória Reclama">
+  
+  <!-- Responsividade para dispositivos móveis -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Link canônico para evitar conteúdo duplicado em mecanismos de busca -->
+  <link rel="canonical" href="https://www.seusite.com/reclamacoes-alimentacao-vitoria">
+
+  <!-- Dados estruturados para buscadores (Google, Bing etc.) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Reclamações sobre Alimentação em Vitória",
+    "description": "Reclamações recentes do setor de alimentação em Vitória (ES), incluindo restaurantes e delivery. Veja respostas das empresas no Reclame Aqui.",
+    "url": "https://www.seusite.com/reclamacoes-alimentacao-vitoria"
+  }
+  </script>
+
+  <!-- CSS interno -->
+  <style>
+    /* Estilo base do corpo da página */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+
+    /* Container principal da página */
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 6px;
+    }
+
+    /* Estilo de cabeçalho e rodapé */
+    header, footer {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    /* Título principal (h1) */
+    h1 {
+      font-size: 2rem;
+      color: #1a1a1a;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Subtítulos de reclamações */
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+      color: #004d99;
+    }
+
+    /* Estilo dos parágrafos */
+    p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    /* Cada bloco de reclamação */
+    .complaint {
+      border-top: 1px solid #ddd;
+      padding-top: 1rem;
+      margin-top: 1rem;
+    }
+
+    /* Meta informações (data e autor) */
+    .meta {
+      font-size: 0.875rem;
+      color: #555;
+    }
+
+    /* Status de reclamações resolvidas */
+    .status {
+      font-weight: bold;
+      color: green;
+    }
+
+    /* Status de reclamações não resolvidas */
+    .unresolved {
+      color: red;
+    }
+
+    /* Rodapé pequeno */
+    footer {
+      font-size: 0.875rem;
+      color: #888;
+    }
+
+    /* === LETREIRO PISCANTE CENTRAL === */
+
+    /* Estilo do letreiro */
+    .banner-flash {
+      position: fixed; /* Fixa na tela */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Centraliza */
+      background: black;
+      padding: 1rem 2rem;
+      border: 3px solid #ff00ff;
+      border-radius: 10px;
+      z-index: 9999; /* Garante que fica por cima */
+      animation: flash 1s infinite; /* Animação piscando */
+      text-align: center;
+    }
+
+    /* Estilo do link dentro do letreiro */
+    .banner-flash a {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    /* Animação piscante */
+    @keyframes flash {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    /* Responsividade do letreiro para celulares */
+    @media (max-width: 600px) {
+      .banner-flash {
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+      }
+
+      .banner-flash a {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- LETREIRO PISCANTE COM PROPAGANDA ALEATÓRIA -->
+  <div class="banner-flash" id="bannerFlash">
+    <a href="#" id="bannerLink" target="_blank">💥 CLIQUE E CONFIRA! 💥</a>
+  </div>
+
+            <!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
+            <div class="container">
+                <header>
+                <h1>Reclamações Recentes sobre Alimentação em Vitória (ES)</h1>
+                <p>Dados extraídos manualmente do <strong>Reclame Aqui</strong>, com foco em restaurantes, fast-food e delivery na cidade de Vitória.</p>
+                </header>
+
+                <!-- Reclamação 1 -->
+                <section class="complaint">
+                <h2>Restaurante do Sabor - Demora e Atendimento Ruim</h2>
+                <p class="meta">Publicado em 26/06/2025 por Ana Souza</p>
+                <p>“Fiz o pedido às 19h e só chegou às 21h30. Atendimento por telefone muito grosseiro.”</p>
+                <p class="status unresolved">Status: Sem resposta</p>
+                </section>
+
+                <!-- Reclamação 2 -->
+                <section class="complaint">
+                <h2>Pizza 10 - Pedido errado e não resolvido</h2>
+                <p class="meta">Publicado em 25/06/2025 por Carlos Lima</p>
+                <p>“Recebi uma pizza completamente diferente do pedido e a empresa não resolveu.”</p>
+                <p class="status">Status: Respondido - Em análise</p>
+                </section>
+                <section class="complaint">
+            <h2>Sanduba Express - Entrega cancelada sem aviso</h2>
+            <p class="meta">Publicado em 23/06/2025 por Larissa Almeida</p>
+            <p>“Esperei mais de uma hora e depois vi no app que o pedido foi cancelado. Nenhuma explicação ou contato.”</p>
+            <p class="status unresolved">Status: Sem resposta</p>
+            </section>
+
+            <section class="complaint">
+            <h2>Açaí Vitória - Produto derretido e embalagem danificada</h2>
+            <p class="meta">Publicado em 22/06/2025 por Rafael Tavares</p>
+            <p>“O açaí chegou totalmente derretido e a tampa estava mal fechada, derramou tudo na sacola.”</p>
+            <p class="status">Status: Respondido - Aguardando retorno do cliente</p>
+            </section>
+
+            <section class="complaint">
+            <h2>Sabor Mineiro - Cobrança duplicada</h2>
+            <p class="meta">Publicado em 21/06/2025 por Camila Rocha</p>
+            <p>“Fui cobrada duas vezes pelo mesmo pedido. Entrei em contato e ainda não tive estorno.”</p>
+            <p class="status unresolved">Status: Empresa visualizou, mas não respondeu</p>
+            </section>
+
+
+    <!-- Você pode adicionar mais blocos como esse acima -->
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy;  Reclame Vitória |<!-- Relógio digital com estilo direto na tag -->
+        <div id="relogio" style="text-align:center; font-size:1rem; color:#333; margin-top:1rem; font-weight:bold;">
+        Atualizado em: <span id="hora"></span>
+        </div></p>
+      <p><a href="https://www.reclameaqui.com.br" target="_blank">Fonte: Reclame Aqui</a></p>
+    </footer>
+  </div>
+
+  <!-- SCRIPT PARA LINKS ALEATÓRIOS NO LETREIRO -->
+  <script>
+    // Lista de propagandas
+    const ads = [
+      { url: "https://geocredibnkvitoria.com/", text: " CRÉDITO PESSOAL!" },
+      { url: "https://www.youtube.com/watch?v=gBclanEnn88", text: "Consórcio" },
+      {url:"https://vpserp.vercel.app/",text:"Soluções em ERP, VPS e Hospedagem"},
+      {url:'https://vodkavilavelhavitoria.vercel.app/',text:'Notícias do Espírito Santo'},
+      {url:'https://piadasrepositorio.vercel.app/',text:'CONFIRA AS MELHORES PIADAS'},
+      {url:'https://brasilbrasileiross.blogspot.com/',text:'BRASIL PORTAL'},
+      {url:' www.espiritosanto-es.com.br/linhadotempovitoria/',text:'linha do tempo vitória'},
+      {url:'https://humortoxicoox.blogspot.com/',text:'humor tóxico'},
+      {url:'https://piadashumorengracado222s.blogspot.com/',text:'as melhores piadas'},
+      {url:'https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/',text:'As melhores vps do mercado'}
+   
+    ];
+
+    // Função para sortear um anúncio aleatório
+    function pickRandomAd() {
+      const ad = ads[Math.floor(Math.random() * ads.length)];
+      const bannerLink = document.getElementById("bannerLink");
+      bannerLink.href = ad.url;
+      bannerLink.textContent = ad.text;
+    }
+
+    // Atualiza o banner a cada 5 segundos com uma nova propaganda
+    setInterval(pickRandomAd, 5000);
+
+    // Escolhe o primeiro logo ao carregar
+    window.onload = pickRandomAd;
+  </script>
+  <!-- Script para atualizar o relógio -->
+<script>
+  function atualizarRelogio() {
+    const agora = new Date();
+    const dia = String(agora.getDate()).padStart(2, '0');
+    const mes = String(agora.getMonth() + 1).padStart(2, '0');
+    const ano = agora.getFullYear();
+    const hora = String(agora.getHours()).padStart(2, '0');
+    const minutos = String(agora.getMinutes()).padStart(2, '0');
+    const segundos = String(agora.getSeconds()).padStart(2, '0');
+    const horario = `${dia}/${mes}/${ano} ${hora}:${minutos}:${segundos}`;
+    document.getElementById("hora").textContent = horario;
+  }
+
+  // Atualiza o relógio ao carregar a página e a cada segundo
+  window.onload = atualizarRelogio;
+  setInterval(atualizarRelogio, 1000);
+</script>
+</body>
+</html>
